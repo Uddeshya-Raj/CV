@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Contact details of Uddeshya Raj">
+  <title>Contact me</title>
+</head>
+
+<body>
+  <h2>Contact Details</h2>
+  <hr size="3px" noshade>
+  <strong>Phone Number</strong>: +91 7004942775 <br>
+  <strong>Email address</strong>: <a href="mailto:raj.uddeshya157@gmail.com">raj.uddeshya157@gmail.com</a><br>
+  <strong>Address</strong>:<br> c/o Advocate Dharmendra Kumar <br>Noorpur, Patna City <br>Patna, PIN-800008 <br>Bihar, India <br>
+  <strong>Social Media</strong>: <br>
+  <ul style="list-style-type: none;">
+    <li>
+      <div class="linkedin">
+        <a href="https://www.linkedin.com/in/uddeshya-raj-b34663191/">
+          <img src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG38.png" alt="linkedin_logo" style="width:100px;">
+          <br>
+          <span>linkedin</span>
+        </a>
+      </div>
+    </li>
+    <li>
+      <div class="instagram">
+        <a href="https://www.instagram.com/uddeshya_raj157/?hl=en">
+          <img src="instagram_logo.png" alt="instagram_logo" style="width:100px;">
+          <br>
+          <span>instagram</span>
+        </a>
+      </div>
+    </li>
+  </ul>
+  <br>
+  <h3>Feedback Form:</h3>
+  <form class="feedback" action="mailto:raj.uddeshya157@gmail.com" method="post" enctype="text/plain">
+    <label for="feedbackText">Feedback:</label><br>
+    <textarea id="feedbackText" name="feedbackText" rows="8" cols="80" placeholder="Your Text Here..."></textarea>
+    <table>
+      <tr>
+        <td><label for="YourName"></label>Name:</td>
+        <td> <input type="text" id="YourName" name="Name" placeholder="Your Name" value=""> </td>
+      </tr>
+      <tr>
+        <td><label for="DateOfBirth">Date of Birth:</label></td>
+        <td> <input type="date" id="DateOfBirth" name="DOB" value=""> </td>
+      </tr>
+      <tr>
+        <td><label>Gender:</label></td>
+        <td>
+          <div class="male">
+            <input type="radio" id="male" name="gender" value="male"> <label for="male">Male</label>
+          </div>
+          <div class="female">
+            <input type="radio" id="female" name="gender" value="female"> <label for="female">Female</label>
+          </div>
+          <div class="others">
+            <input type="radio" id="others" name="gender" value="others"> <label for="others">Others</label>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>Email Address:</td>
+        <td> <input type="email" id="YourEmail" name="Email" placeholder="example@mail.com" value=""> </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="checkbox" id="subscribeNewsletter" name="Newsletter" value="subscribed" checked> <label for="subscribeNewsletter">Subscribe to Newsletter</label>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="submit" id="submitButton" value="Submit">
+        </td>
+      </tr>
+    </table>
+  </form>
+  <br>
+  <a href="index.html">Back</a>
+</body>
+
+</html>
