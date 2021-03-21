@@ -1,0 +1,96 @@
+body{
+  background-color: #dddddd;
+  color: #222831;
+}
+hr{
+  height: 0;
+  width: 10%;
+  border-style: none;
+  border-bottom-style: dotted;
+  border-width: 8px;
+  border-color: #f05454;
+}
+a{
+  text-decoration: none;
+  color: #30475e;
+}
+a:hover{
+  color: #f05454;
+}
+a:active{
+  text-shadow: 0 0 5px #f05454;
+  color: #30475e;
+}
+.name{
+  text-indent: 50px;
+  background-image: linear-gradient(to right,rgba(48, 71, 94, 1),rgba(48, 71, 94, 0));
+  color: #dddddd;
+  letter-spacing: 3px;
+  word-spacing: 6px;
+}
+.title{
+  text-indent: 50px;
+  background-color: #30475e;
+  color: #dddddd;
+  letter-spacing: 3px;
+  word-spacing: 6px;
+}
+.subtitle{
+  text-indent: 50px;
+  background-color: #30475e;
+  color: #dddddd;
+  letter-spacing: 3px;
+  word-spacing: 6px;
+}
+.intro{
+  text-indent: 50px;
+  text-align: justify;
+  line-height: 1.5;
+}
+.edulist{
+  font-size: 16px;
+  line-height: 1.6;
+}
+.hobbyList{
+  font-size: 16px;
+  line-height: 1.6;
+}
+.mylinks{
+  text-indent: 0;
+  text-decoration: none;
+  color: #30475e;
+}
+.weblink{
+  text-decoration: none;
+  font-size: 18px;
+  color: #30475e;
+}
+.socialMediaLink{
+  font-size: 20px;
+  color: #30475e;
+  text-decoration: none;
+  word-spacing: 10px;
+}
+.socialMediaIcon{
+  width: 100px;
+  vertical-align: middle;
+}
+.submitButton{
+  cursor:pointer;
+}
+.submitButton:hover{
+  box-shadow: 0 5px 5px #f05454,0 10px 20px #f05454;
+  -webkit-transition:0.25s;
+  -moz-transition:0.25s;
+  -o-transition:0.25s;
+  transition: 0.25s;
+}
+.submitButton:active{
+  box-shadow: 0 2px 5px #f05454, 0 7px 20px #f05454;
+  transform: translateY(3px);
+}
+.backLink{
+  font-size: 20px;
+  text-decoration: none;
+  color: #30475e;
+}

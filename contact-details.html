@@ -5,44 +5,47 @@
   <meta charset="utf-8">
   <meta name="description" content="Contact details of Uddeshya Raj">
   <title>Contact me</title>
+  <link rel="stylesheet" href="stylesheets/styles.css">
 </head>
 
 <body>
-  <h2>Contact Details</h2>
-  <hr size="3px" noshade>
+  <h2 class="title">Contact Details</h2>
   <strong>Phone Number</strong>: +91 7004942775 <br>
-  <strong>Email address</strong>: <a href="mailto:raj.uddeshya157@gmail.com">raj.uddeshya157@gmail.com</a><br>
+  <strong>Email address</strong>: <a href="mailto:raj.uddeshya157@gmail.com">raj.uddeshya157@gmail.com »</a><br>
   <strong>Address</strong>:<br> c/o Advocate Dharmendra Kumar <br>Noorpur, Patna City <br>Patna, PIN-800008 <br>Bihar, India <br>
   <strong>Social Media</strong>: <br>
   <ul style="list-style-type: none;">
     <li>
       <div class="linkedin">
-        <a href="https://www.linkedin.com/in/uddeshya-raj-b34663191/">
-          <img src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG38.png" alt="linkedin_logo" style="width:100px;">
-          <br>
-          <span>linkedin</span>
+        <a class="socialMediaLink" href="https://www.linkedin.com/in/uddeshya-raj-b34663191/">
+          <span>
+            <img class="socialMediaIcon" src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG38.png" alt="linkedin_logo">
+            <strong>linkedin</strong>
+          </span>
         </a>
       </div>
     </li>
     <li>
       <div class="instagram">
-        <a href="https://www.instagram.com/uddeshya_raj157/?hl=en">
-          <img src="instagram_logo.png" alt="instagram_logo" style="width:100px;">
-          <br>
-          <span>instagram</span>
+        <a class="socialMediaLink" href="https://www.instagram.com/uddeshya_raj157/?hl=en">
+          <span>
+            <img class="socialMediaIcon" src="instagram_logo.png" alt="instagram_logo">
+            <strong>instagram</strong>
+          </span>
         </a>
       </div>
     </li>
   </ul>
   <br>
-  <h3>Feedback Form:</h3>
+  <hr>
+  <h3 class="subtitle">Feedback Form:</h3>
   <form class="feedback" action="mailto:raj.uddeshya157@gmail.com" method="post" enctype="text/plain">
     <label for="feedbackText">Feedback:</label><br>
     <textarea id="feedbackText" name="feedbackText" rows="8" cols="80" placeholder="Your Text Here..."></textarea>
     <table>
       <tr>
         <td><label for="YourName"></label>Name:</td>
-        <td> <input type="text" id="YourName" name="Name" placeholder="Your Name" value=""> </td>
+        <td> <input type="text" class="nameInput" id="YourName" name="Name" placeholder="Your Name" value=""> </td>
       </tr>
       <tr>
         <td><label for="DateOfBirth">Date of Birth:</label></td>
@@ -64,7 +67,7 @@
       </tr>
       <tr>
         <td>Email Address:</td>
-        <td> <input type="email" id="YourEmail" name="Email" placeholder="example@mail.com" value=""> </td>
+        <td> <input type="email" class="mailInput" id="YourEmail" name="Email" placeholder="example@mail.com" value=""> </td>
       </tr>
       <tr>
         <td colspan="2">
@@ -73,13 +76,13 @@
       </tr>
       <tr>
         <td colspan="2">
-          <input type="submit" id="submitButton" value="Submit">
+          <input type="submit" class="submitButton" id="submitButton" value="Submit">
         </td>
       </tr>
     </table>
   </form>
   <br>
-  <a href="index.html">Back</a>
+  <a class="backLink" href="index.html">⮌ Back</a>
 </body>
 
 </html>
